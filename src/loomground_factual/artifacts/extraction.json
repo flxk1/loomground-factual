@@ -1,0 +1,21 @@
+{
+  "describes": "Surface cues for lowering free-text assertions into the fixed 5D, as DATA. A fact is a relation between entities: is-a/part-of -> STRUCTURAL, any other predicate -> RELATIONAL; polarity + quantification ride as edge properties. No nD facet — factual is the 5D floor.",
+  "dimension": "5D",
+  "predicate_cues": {
+    "structural": "\\b(?:is|are|shall be)\\s+(?:not\\s+)?(?:a|an|one of(?: the)?|a type of|a kind of|a category of|part of|comprised of|composed of)\\b",
+    "copula": "\\b(?:is|are|shall be|means|include[sd]?|consists? of|refers? to)\\b"
+  },
+  "polarity_cues": {
+    "negation": "\\b(?:not|no|never|neither|without)\\b"
+  },
+  "quantifier_cues": {
+    "universal": "\\b(?:all|any|every|each)\\b",
+    "existential": "\\b(?:some|a|an)\\b",
+    "empty": "\\b(?:no|none of|neither)\\b"
+  },
+  "entity_cues": {
+    "entity_markers": "^(?:[-–—•*]\\s*|\\(\\s*[0-9a-z]{1,3}\\s*\\)\\s*|[0-9]+(?:\\.[0-9]+)*\\.?\\s+)+",
+    "entity_lead": "^(?:a|an|the|its|their|any|this|each|every|all|both|such|no|der|die|das|ein|eine|jede[rs]?)\\s+",
+    "entity_trail": "\\s+(?:which\\b|who\\b|whose\\b|to which\\b|as referred to\\b|referred to in\\b|pursuant to\\b|adopted by\\b|involved in\\b|of the (?:main|seconding)\\b).*$"
+  }
+}

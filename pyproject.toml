@@ -1,0 +1,22 @@
+# SPDX-License-Identifier: Apache-2.0
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "loomground-factual"
+version = "0.1.0"
+description = "Factual/assertoric language: lowers free-text assertions into the fixed 5D (relational/structural edges). The alethic substrate the modal languages evaluate against."
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSES/Apache-2.0.txt", "NOTICE"]
+authors = [{ name = "Loomground Contributors" }]
+# Standard-library-only leaf plane: the assertoric substrate other planes
+# (epistemic, ingest) lower text into. No loomground siblings at runtime.
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+loomground_factual = ["artifacts/*.json"]

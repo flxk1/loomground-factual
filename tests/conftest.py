@@ -14,7 +14,7 @@ import importlib.util
 import sys
 from pathlib import Path
 
-_HERE = Path(__file__).resolve().parent
+_HERE = Path(__file__).resolve().parents[1]  # repo root; this file lives in tests/
 
 if importlib.util.find_spec("loomground_factual") is None:
     _self_src = _HERE / "src"

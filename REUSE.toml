@@ -10,7 +10,7 @@ SPDX-License-Identifier = "Apache-2.0"
 
 [[annotations]]
 path = [
-  "src/loomground_factual/**", "tests/**",
+  ".github/**", "src/loomground_factual/**", "tests/**",
   "*.json", "*.toml",
 ]
 precedence = "aggregate"

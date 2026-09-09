@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "loomground-factual"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Factual/assertoric language: lowers free-text assertions into the fixed 5D (relational/structural edges). The alethic substrate the modal languages evaluate against."
 requires-python = ">=3.10"
 license = "Apache-2.0"
@@ -15,8 +15,18 @@ authors = [{ name = "Loomground Contributors" }]
 # (epistemic, ingest) lower text into. No loomground siblings at runtime.
 dependencies = []
 
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.dynamic]
+version = { attr = "loomground_factual._version.__version__" }
+
 [tool.setuptools.package-data]
 loomground_factual = ["artifacts/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "loomground-factual"
 dynamic = ["version"]
-description = "Factual/assertoric language: lowers free-text assertions into the fixed 5D (relational/structural edges). The alethic substrate the modal languages evaluate against."
+description = "Assertoric language plane: lowers a copula-form assertion into a fixed 5D edge; the fact representation the modal planes evaluate against."
 requires-python = ">=3.10"
 license = "Apache-2.0"
 license-files = ["LICENSES/Apache-2.0.txt", "NOTICE"]

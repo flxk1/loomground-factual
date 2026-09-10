@@ -1,0 +1,50 @@
+# loomground-factual
+
+> Assertoric language plane: lowers a copula-form assertion into a fixed 5D edge; the fact representation the modal planes evaluate against.
+
+## Problem
+Sentences enter the graph as text; nothing can reason over them. Lowers a sentence to subject, predicate, object with a dimension.
+
+## Install
+```
+pip install "loomground-factual @ git+https://github.com/flxk1/loomground-factual@factual-v0.1.0"
+```
+
+Dependents pin `loomground-factual>=0.1,<0.2`.
+
+## Usage
+```python
+from loomground_factual import lower, clean_entity
+
+lower("The register consists of entries.")
+# {'subject': 'register', 'predicate': 'consists of', 'object': 'entries',
+#  'dimension': 'relational', 'negated': False, 'quantification': 'existential'}
+
+clean_entity("Where applicable, the processor")   # 'processor'
+```
+
+## Interface
+| Item | Definition |
+|---|---|
+| Input | one sentence (`str`) |
+| `lower(sentence)` | `None` for a sentence without a copula; else a dict: `subject`, `predicate`, `object`, `dimension`, `negated`, `quantification` |
+| `dimension` | `structural` for is-a / part-of predicates, else `relational` |
+| `quantification` | `universal`, `existential`, `empty` |
+| `clean_entity(span)` | reduces a span to its NP head; shared with the deontic bearer and the epistemic holder |
+| `load_json(name)` | packaged artifact loader |
+| `artifacts/extraction.json` | every cue as data: copula, structural, negation, quantifier, entity markers |
+
+## Family
+Assertoric base language; the fact representation consumed by modal planes. A fact is a relation between entities, so it lowers onto the 5D floor without an nD facet. The plane lowers only; composition and reasoning live on `loomground-solver`.
+
+- Consumes: nothing at runtime.
+- Consumed by: `loomground-epistemic` (`loomground-factual>=0.1,<0.2`, for `clean_entity`).
+- Modal planes over this base: `loomground-deontic` (ought), `loomground-epistemic` (know/believe).
+- Pipeline: `source → loomground-ingest → loomground-versum → loomground-solver → applied or diagnostic planes`; the base representation assertions lower into.
+
+Positioning and prior art: `docs/positioning.md`.
+
+Language: loomground — guide https://github.com/flxk1/loomground/blob/main/llms.txt (the .lg language an agent reads, emits, validates); catalogue https://github.com/flxk1/loomground/blob/main/CATALOGUE.json
+Language card: docs/language-card.md
+Skills: factual
+MCP tools: factual_lower

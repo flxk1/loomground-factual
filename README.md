@@ -4,6 +4,10 @@
 
 Assertoric language plane: lowers a copula-form assertion into a fixed 5D edge; the fact representation the modal planes evaluate against.
 
+## Problem
+
+Sentences enter the graph as text; nothing can reason over them. Lowers a sentence to subject, predicate, object with a dimension.
+
 ## Install
 
 ```
@@ -17,13 +21,32 @@ Dependents pin `loomground-factual>=0.1,<0.2`.
 ```python
 from loomground_factual import lower, clean_entity
 
-lower("A provider is a natural or legal person that develops an AI system.")
-# {'subject': 'provider', 'predicate': 'is',
-#  'object': 'natural or legal person that develops an AI system',
-#  'dimension': 'structural', 'negated': False, 'quantification': 'existential'}
+lower("The register consists of entries.")
+# {'subject': 'register', 'predicate': 'consists of', 'object': 'entries',
+#  'dimension': 'relational', 'negated': False, 'quantification': 'existential'}
 
 clean_entity("Where applicable, the processor")   # 'processor'
 ```
+
+## Example
+
+```
+in : lower("The operator is a controller.")
+out: {'subject': 'operator', 'predicate': 'is', 'object': 'controller', 'dimension': 'structural', 'negated': False, 'quantification': 'existential'}
+```
+
+## Language
+
+A plain assertion as subject · predicate · object with a dimension (`structural` for is-a and part-of, `relational` for any other copula), polarity and quantification. Cue classes: structural predicate · copula (`is`, `are`, `shall be`, `means`, `includes`, `consists of`, `refers to`) · negation · quantifier (universal, existential, empty) · entity trimming.
+
+```
+The operator is a controller.            operator · is · controller · structural · existential
+A processor is not a controller.         processor · is · controller · structural · negated · existential
+Every controller is a natural person.    controller · is · natural person · structural · universal
+The register consists of entries.        register · consists of · entries · relational · existential
+```
+
+Full card: `docs/language-card.md`.
 
 ## Interface
 
@@ -39,7 +62,7 @@ clean_entity("Where applicable, the processor")   # 'processor'
 
 ## Family
 
-Assertoric base language; the fact representation consumed by modal planes. A fact is a relation between entities, so it lowers onto the 5D floor without an nD facet. The plane runs no reasoning; composition lives on `loomground-solver`.
+Assertoric base language; the fact representation consumed by modal planes. A fact is a relation between entities, so it lowers onto the 5D floor without an nD facet. The plane lowers only; composition and reasoning live on `loomground-solver`.
 
 - Consumes: nothing at runtime.
 - Consumed by: `loomground-epistemic` (`loomground-factual>=0.1,<0.2`, for `clean_entity`).

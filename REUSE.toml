@@ -12,6 +12,7 @@ SPDX-License-Identifier = "Apache-2.0"
 path = [
   ".github/**", "src/loomground_factual/**", "tests/**",
   "*.json", "*.toml",
+  "skills/**", ".claude-plugin/**",
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 flxk1"

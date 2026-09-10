@@ -1,0 +1,26 @@
+{
+  "name": "loomground-factual",
+  "version": "0.1.0",
+  "description": "The factual plane's reader: lower a plain assertion into subject, predicate, object with dimension, negation and quantification. The factual skill is the language card; the loomground MCP server carries factual_lower.",
+  "author": {
+    "name": "Loomground Contributors"
+  },
+  "keywords": [
+    "loomground",
+    "factual",
+    "triples",
+    "lowering",
+    "legal"
+  ],
+  "skills": "./skills/",
+  "mcpServers": {
+    "loomground": {
+      "command": "loomground-mcp",
+      "args": [
+        "serve",
+        "--transport",
+        "stdio"
+      ]
+    }
+  }
+}

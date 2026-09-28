@@ -11,7 +11,7 @@ Sentences enter the graph as text; nothing can reason over them. Lowers a senten
 ## Install
 
 ```
-pip install "loomground-factual @ git+https://github.com/flxk1/loomground-factual@factual-v0.1.0"
+pip install "loomground-factual @ git+https://github.com/flxk1/loomground-factual@factual-v0.2.0"
 ```
 
 Dependents pin `loomground-factual>=0.1,<0.2`.
@@ -85,7 +85,7 @@ Positioning and prior art: `docs/positioning.md`.
 
 ## Status
 
-0.1.0 · 136 tests · Python ≥ 3.10 (CI 3.12) · standard library only.
+0.2.0 · 136 tests · Python ≥ 3.10 (CI 3.12) · standard library only.
 
 ## How this is made
 

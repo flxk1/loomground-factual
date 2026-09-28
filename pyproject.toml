@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "loomground-factual"
 dynamic = ["version"]
-description = "Assertoric language plane: lowers a copula-form assertion into a fixed 5D edge; the fact representation the modal planes evaluate against."
+description = "Assertoric language plane: lowers a copula, ordering or modal assertion into a fixed 5D edge and publishes the factual nD system; the fact representation the modal planes evaluate against."
 requires-python = ">=3.10"
 license = "Apache-2.0"
 license-files = ["LICENSES/Apache-2.0.txt", "NOTICE"]
@@ -14,6 +14,11 @@ authors = [{ name = "Loomground Contributors" }]
 # Standard-library-only leaf plane: the assertoric substrate other planes
 # (epistemic, ingest) lower text into. No loomground siblings at runtime.
 dependencies = []
+
+# Loomground plane descriptor contract v1: entry name = plane id, target = a
+# zero-arg plane() returning the descriptor (nD system, 5D binding, producer).
+[project.entry-points."loomground.planes"]
+factual = "loomground_factual.plane:plane"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]

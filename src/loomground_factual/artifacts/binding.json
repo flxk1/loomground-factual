@@ -1,0 +1,11 @@
+{
+  "describes": "The factual plane's one relation -> 5D binding. is-a/part-of/has-part are STRUCTURAL; temporal ordering (precedes/follows) is TEMPORAL; every other predicate (predication) is RELATIONAL. The only place this binding is written.",
+  "binding": {
+    "is-a": "structural",
+    "part-of": "structural",
+    "has-part": "structural",
+    "precedes": "temporal",
+    "follows": "temporal",
+    "predication": "relational"
+  }
+}

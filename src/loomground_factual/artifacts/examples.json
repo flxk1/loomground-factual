@@ -1,0 +1,422 @@
+{
+  "describes": "Published conformance vectors for the factual plane: each sentence with the exact claims produce() returns. The first seven are the credit-decision case; the rest are cross-jurisdiction definitional provisions and a sentence with no fact ([]).",
+  "examples": [
+    {
+      "sentence": "The bank is a controller.",
+      "expected": [
+        {
+          "relation": "is-a",
+          "span": [
+            0,
+            24
+          ],
+          "coordinates": {
+            "subject": "bank",
+            "predicate": "is",
+            "object": "controller",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "bank",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "The scoring model is part of the credit system.",
+      "expected": [
+        {
+          "relation": "part-of",
+          "span": [
+            0,
+            46
+          ],
+          "coordinates": {
+            "subject": "scoring model",
+            "predicate": "part of",
+            "object": "credit system",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "scoring model",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "The controller must not make a solely automated decision on a credit application.",
+      "expected": [
+        {
+          "relation": "predication",
+          "span": [
+            0,
+            80
+          ],
+          "coordinates": {
+            "subject": "controller",
+            "predicate": "make",
+            "object": "solely automated decision on a credit application",
+            "polarity": "negative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "controller",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "The controller may use the score to prepare a decision.",
+      "expected": [
+        {
+          "relation": "predication",
+          "span": [
+            0,
+            54
+          ],
+          "coordinates": {
+            "subject": "controller",
+            "predicate": "use",
+            "object": "score to prepare a decision",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "controller",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "The controller knows that the training data is inaccurate.",
+      "expected": [
+        {
+          "relation": "predication",
+          "span": [
+            26,
+            57
+          ],
+          "coordinates": {
+            "subject": "training data",
+            "predicate": "is",
+            "object": "inaccurate",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "training data",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "A reviewer shall examine every rejection before it is sent.",
+      "expected": [
+        {
+          "relation": "predication",
+          "span": [
+            0,
+            58
+          ],
+          "coordinates": {
+            "subject": "reviewer",
+            "predicate": "examine",
+            "object": "every rejection",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "reviewer",
+            "inherited": null
+          },
+          "links": [
+            {
+              "type": "temporal",
+              "relation": "precedes",
+              "to_span": [
+                48,
+                58
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentence": "The review follows the automated scoring.",
+      "expected": [
+        {
+          "relation": "precedes",
+          "span": [
+            0,
+            40
+          ],
+          "coordinates": {
+            "subject": "automated scoring",
+            "predicate": "precedes",
+            "object": "review",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "automated scoring",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "Biometric data is a special category of personal data.",
+      "expected": [
+        {
+          "relation": "is-a",
+          "span": [
+            0,
+            53
+          ],
+          "coordinates": {
+            "subject": "Biometric data",
+            "predicate": "is",
+            "object": "special category of personal data",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "Biometric data",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "The AI system is not a high-risk AI system.",
+      "expected": [
+        {
+          "relation": "is-a",
+          "span": [
+            0,
+            42
+          ],
+          "coordinates": {
+            "subject": "AI system",
+            "predicate": "is",
+            "object": "high-risk AI system",
+            "polarity": "negative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "AI system",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "Personal data includes any information relating to an identified natural person.",
+      "expected": [
+        {
+          "relation": "predication",
+          "span": [
+            0,
+            79
+          ],
+          "coordinates": {
+            "subject": "Personal data",
+            "predicate": "includes",
+            "object": "any information relating to an identified natural person",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "Personal data",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "All controllers are subject to this Regulation.",
+      "expected": [
+        {
+          "relation": "predication",
+          "span": [
+            0,
+            46
+          ],
+          "coordinates": {
+            "subject": "controllers",
+            "predicate": "are",
+            "object": "subject to this Regulation",
+            "polarity": "affirmative",
+            "quantification": "universal"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "controllers",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "No provider is exempt from the transparency obligations.",
+      "expected": [
+        {
+          "relation": "predication",
+          "span": [
+            0,
+            55
+          ],
+          "coordinates": {
+            "subject": "provider",
+            "predicate": "is",
+            "object": "exempt from the transparency obligations",
+            "polarity": "negative",
+            "quantification": "empty"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "provider",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "The board is composed of members.",
+      "expected": [
+        {
+          "relation": "has-part",
+          "span": [
+            0,
+            32
+          ],
+          "coordinates": {
+            "subject": "board",
+            "predicate": "composed of",
+            "object": "members",
+            "polarity": "affirmative",
+            "quantification": "existential"
+          },
+          "slots": {
+            "fact.subject": "subject",
+            "fact.predicate": "predicate",
+            "fact.object": "object",
+            "fact.polarity": "polarity",
+            "fact.quantification": "quantification"
+          },
+          "method": "loomground-factual/lower",
+          "bearer": {
+            "local": "board",
+            "inherited": null
+          }
+        }
+      ]
+    },
+    {
+      "sentence": "Where possible, act promptly.",
+      "expected": []
+    }
+  ]
+}

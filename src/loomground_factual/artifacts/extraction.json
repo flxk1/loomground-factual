@@ -1,12 +1,43 @@
 {
-  "describes": "Surface cues for lowering free-text assertions into the fixed 5D, as DATA. A fact is a relation between entities: is-a/part-of -> STRUCTURAL, any other predicate -> RELATIONAL; polarity + quantification ride as edge properties. No nD facet — factual is the 5D floor.",
+  "describes": "Surface cues for lowering free-text assertions into the fixed 5D, as DATA. A fact is a relation between entities; the relation -> 5D dimension map lives in binding.json (the one binding file). Polarity + quantification ride as edge properties. Modal auxiliaries (including 'cannot' and 'is/are required to') are stripped to the propositional content; a clausal complement ('knows that ...') is lowered as its own fact. When two cues start at the same offset the longest match wins ('is required to' over 'is', 'is followed by' over 'is', 'shall be' over 'shall').",
   "dimension": "5D",
   "predicate_cues": {
-    "structural": "\\b(?:is|are|shall be)\\s+(?:not\\s+)?(?:a|an|one of(?: the)?|a type of|a kind of|a category of|part of|comprised of|composed of)\\b",
-    "copula": "\\b(?:is|are|shall be|means|include[sd]?|consists? of|refers? to)\\b"
+    "copula": "\\b(?:is|are|shall be|means|include[sd]?|consists? of|refers? to)\\b",
+    "relations": {
+      "is-a": "\\b(?:is|are|shall be)\\s+(?:not\\s+)?(?:a|an|one of(?: the)?|a type of|a kind of|a category of)\\b",
+      "part-of": "\\b(?:is|are|shall be)\\s+(?:not\\s+)?(?P<rel>part of)\\b",
+      "has-part": "\\b(?:is|are|shall be)\\s+(?:not\\s+)?(?P<rel>comprised of|composed of)\\b"
+    },
+    "default_relation": "predication"
+  },
+  "ordering_cues": {
+    "precedes": {
+      "pattern": "\\b(?:precedes?|comes? before|takes? place before|is followed by|are followed by)\\b",
+      "canonical": "precedes",
+      "converse": false
+    },
+    "follows": {
+      "pattern": "\\b(?:follows?|comes? after|takes? place after|succeeds?)\\b",
+      "canonical": "precedes",
+      "converse": true
+    }
+  },
+  "modal_cues": {
+    "modal": "\\b(?:must|shall|should|may|can|could|might|will|would|(?:is|are) required to|(?:has|have) to|ought to)(?:\\s+|(?<=can)(?=not\\s))(?P<neg>not\\s+)?(?=[a-z])",
+    "temporal_subordinate": {
+      "precedes": "\\s+(?:before|prior to|until)\\s+",
+      "follows": "\\s+(?:after|once|following)\\s+"
+    }
+  },
+  "complement_cues": {
+    "clausal_complement": "\\b(?:knows?|believes?|is aware|are aware|becomes? aware|considers?|finds?|states?|establishe[sd]|holds?|is satisfied|are satisfied)\\s+that\\s+"
   },
   "polarity_cues": {
     "negation": "\\b(?:not|no|never|neither|without)\\b"
+  },
+  "polarity_values": {
+    "affirmative": false,
+    "negative": true
   },
   "quantifier_cues": {
     "universal": "\\b(?:all|any|every|each)\\b",

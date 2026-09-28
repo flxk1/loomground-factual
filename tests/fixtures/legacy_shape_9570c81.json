@@ -1,0 +1,1350 @@
+[
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "authorities",
+          "polarity": "affirmative",
+          "predicate": "notify",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          18
+        ]
+      }
+    ],
+    "sentence": "Notify authorities."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "data",
+          "polarity": "affirmative",
+          "predicate": "delete",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          11
+        ]
+      }
+    ],
+    "sentence": "Delete data."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "users",
+          "polarity": "affirmative",
+          "predicate": "notify",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          12
+        ]
+      }
+    ],
+    "sentence": "Notify users."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "records",
+          "polarity": "affirmative",
+          "predicate": "erase",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          13
+        ]
+      }
+    ],
+    "sentence": "Erase records."
+  },
+  {
+    "context": {
+      "subject": "processor"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "processor",
+          "local": null
+        },
+        "coordinates": {
+          "object": "logs",
+          "polarity": "affirmative",
+          "predicate": "retain",
+          "quantification": "existential",
+          "subject": "processor"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          11
+        ]
+      }
+    ],
+    "sentence": "Retain logs."
+  },
+  {
+    "context": {
+      "subject": "processor"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "processor",
+          "local": null
+        },
+        "coordinates": {
+          "object": "requests",
+          "polarity": "affirmative",
+          "predicate": "process",
+          "quantification": "existential",
+          "subject": "processor"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          16
+        ]
+      }
+    ],
+    "sentence": "Process requests."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "complaints",
+          "polarity": "affirmative",
+          "predicate": "review",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          17
+        ]
+      }
+    ],
+    "sentence": "Review complaints."
+  },
+  {
+    "context": {
+      "subject": "authority"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "authority",
+          "local": null
+        },
+        "coordinates": {
+          "object": "guidance",
+          "polarity": "affirmative",
+          "predicate": "publish",
+          "quantification": "existential",
+          "subject": "authority"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          16
+        ]
+      }
+    ],
+    "sentence": "Publish guidance."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "Commission",
+          "polarity": "affirmative",
+          "predicate": "notify",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          17
+        ]
+      }
+    ],
+    "sentence": "Notify Commission."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "Authority",
+          "polarity": "affirmative",
+          "predicate": "inform",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          16
+        ]
+      }
+    ],
+    "sentence": "Inform Authority."
+  },
+  {
+    "context": {
+      "subject": "processor"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "processor",
+          "local": null
+        },
+        "coordinates": {
+          "object": "Ombudsman",
+          "polarity": "affirmative",
+          "predicate": "contact",
+          "quantification": "existential",
+          "subject": "processor"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          17
+        ]
+      }
+    ],
+    "sentence": "Contact Ombudsman."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "competent authority",
+          "polarity": "affirmative",
+          "predicate": "notify",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          30
+        ]
+      }
+    ],
+    "sentence": "Notify the competent authority."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "personal data",
+          "polarity": "affirmative",
+          "predicate": "delete",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          24
+        ]
+      }
+    ],
+    "sentence": "Delete the personal data."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "data subject without delay",
+          "polarity": "affirmative",
+          "predicate": "inform",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          37
+        ]
+      }
+    ],
+    "sentence": "Inform the data subject without delay."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "data protection impact assessment",
+          "polarity": "affirmative",
+          "predicate": "conduct",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          43
+        ]
+      }
+    ],
+    "sentence": "Conduct a data protection impact assessment."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "record of processing activities",
+          "polarity": "affirmative",
+          "predicate": "maintain",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          42
+        ]
+      }
+    ],
+    "sentence": "Maintain a record of processing activities."
+  },
+  {
+    "context": {
+      "subject": "processor"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "processor",
+          "local": null
+        },
+        "coordinates": {
+          "object": "appropriate technical measures",
+          "polarity": "affirmative",
+          "predicate": "implement",
+          "quantification": "existential",
+          "subject": "processor"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          40
+        ]
+      }
+    ],
+    "sentence": "Implement appropriate technical measures."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "Member States without delay",
+          "polarity": "negative",
+          "predicate": "notify",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          34
+        ]
+      }
+    ],
+    "sentence": "Notify Member States without delay."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "Data Subjects of the breach",
+          "polarity": "affirmative",
+          "predicate": "inform",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          34
+        ]
+      }
+    ],
+    "sentence": "Inform Data Subjects of the breach."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": null,
+          "local": "It"
+        },
+        "coordinates": {
+          "object": "authorities",
+          "polarity": "affirmative",
+          "predicate": "notifies",
+          "quantification": "existential",
+          "subject": "It"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          23
+        ]
+      }
+    ],
+    "sentence": "It notifies authorities."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": null,
+          "local": "They"
+        },
+        "coordinates": {
+          "object": "data subject",
+          "polarity": "affirmative",
+          "predicate": "notify",
+          "quantification": "existential",
+          "subject": "They"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          28
+        ]
+      }
+    ],
+    "sentence": "They notify the data subject."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": null,
+          "local": "He"
+        },
+        "coordinates": {
+          "object": "authority",
+          "polarity": "affirmative",
+          "predicate": "informs",
+          "quantification": "existential",
+          "subject": "He"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          24
+        ]
+      }
+    ],
+    "sentence": "He informs the authority."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": null,
+          "local": "She"
+        },
+        "coordinates": {
+          "object": "record",
+          "polarity": "affirmative",
+          "predicate": "deletes",
+          "quantification": "existential",
+          "subject": "She"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          22
+        ]
+      }
+    ],
+    "sentence": "She deletes the record."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": null,
+          "local": "We"
+        },
+        "coordinates": {
+          "object": "request",
+          "polarity": "affirmative",
+          "predicate": "process",
+          "quantification": "existential",
+          "subject": "We"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          22
+        ]
+      }
+    ],
+    "sentence": "We process the request."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller",
+          "candidates": [
+            "controller"
+          ]
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": null,
+          "local": "It"
+        },
+        "coordinates": {
+          "object": "authorities",
+          "polarity": "affirmative",
+          "predicate": "notifies",
+          "quantification": "existential",
+          "subject": "It"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          23
+        ]
+      }
+    ],
+    "sentence": "It notifies authorities."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller",
+          "candidates": [
+            "controller",
+            "processor"
+          ]
+        }
+      ]
+    },
+    "expected": [
+      {
+        "abstained": true,
+        "reason": "AMBIGUOUS_PRONOUN",
+        "span": [
+          0,
+          23
+        ]
+      }
+    ],
+    "sentence": "It notifies authorities."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller",
+          "candidates": [
+            "controller",
+            "processor"
+          ]
+        }
+      ]
+    },
+    "expected": [
+      {
+        "abstained": true,
+        "reason": "AMBIGUOUS_PRONOUN",
+        "span": [
+          0,
+          23
+        ]
+      }
+    ],
+    "sentence": "They notify authorities."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "recipients",
+          "polarity": "affirmative",
+          "predicate": "inform",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          17
+        ]
+      }
+    ],
+    "sentence": "Inform recipients."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "recipients of the breach",
+          "polarity": "affirmative",
+          "predicate": "notify",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          31
+        ]
+      }
+    ],
+    "sentence": "Notify recipients of the breach."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "processor"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "processor",
+          "local": null
+        },
+        "coordinates": {
+          "object": "personal data",
+          "polarity": "affirmative",
+          "predicate": "delete",
+          "quantification": "existential",
+          "subject": "processor"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          20
+        ]
+      }
+    ],
+    "sentence": "Delete personal data."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "processor"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "processor",
+          "local": null
+        },
+        "coordinates": {
+          "object": "logs",
+          "polarity": "affirmative",
+          "predicate": "erase",
+          "quantification": "existential",
+          "subject": "processor"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          10
+        ]
+      }
+    ],
+    "sentence": "Erase logs."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": null,
+          "local": "Member States"
+        },
+        "coordinates": {
+          "object": "compliance",
+          "polarity": "affirmative",
+          "predicate": "ensure",
+          "quantification": "existential",
+          "subject": "Member States"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          31
+        ]
+      }
+    ],
+    "sentence": "Member States ensure compliance."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": null,
+          "local": "Data Subjects"
+        },
+        "coordinates": {
+          "object": "erasure",
+          "polarity": "affirmative",
+          "predicate": "request",
+          "quantification": "existential",
+          "subject": "Data Subjects"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          29
+        ]
+      }
+    ],
+    "sentence": "Data Subjects request erasure."
+  },
+  {
+    "context": {
+      "subject": "processor"
+    },
+    "expected": [],
+    "sentence": "The controller notifies authorities."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [],
+    "sentence": "The reviewer approves the request."
+  },
+  {
+    "context": {
+      "subject": "controller"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "controller",
+          "local": null
+        },
+        "coordinates": {
+          "object": "data",
+          "polarity": "negative",
+          "predicate": "disclose",
+          "quantification": "existential",
+          "subject": "controller"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          23
+        ]
+      }
+    ],
+    "sentence": "Never disclose the data."
+  },
+  {
+    "context": {
+      "subject": "processor"
+    },
+    "expected": [
+      {
+        "asserted": false,
+        "bearer": {
+          "inherited": "processor",
+          "local": null
+        },
+        "coordinates": {
+          "object": "special category data",
+          "polarity": "negative",
+          "predicate": "process",
+          "quantification": "existential",
+          "subject": "processor"
+        },
+        "entry_kind": "action_type",
+        "method": "loomground-factual/content_clause",
+        "relation": "predication",
+        "slots": {
+          "fact.object": "object",
+          "fact.polarity": "polarity",
+          "fact.predicate": "predicate",
+          "fact.quantification": "quantification",
+          "fact.subject": "subject"
+        },
+        "span": [
+          0,
+          33
+        ]
+      }
+    ],
+    "sentence": "Not process special category data."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": null
+        }
+      ]
+    },
+    "expected": [
+      {
+        "abstained": true,
+        "reason": "NO_BEARER",
+        "span": [
+          0,
+          11
+        ]
+      }
+    ],
+    "sentence": "Hello world."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller",
+          "candidates": [
+            "controller",
+            "processor"
+          ]
+        }
+      ]
+    },
+    "expected": [
+      {
+        "abstained": true,
+        "reason": "AMBIGUOUS_PRONOUN",
+        "span": [
+          0,
+          2
+        ]
+      }
+    ],
+    "sentence": "It."
+  },
+  {
+    "context": {
+      "frame": [
+        {
+          "bearer": "controller"
+        }
+      ]
+    },
+    "expected": [],
+    "sentence": "12345."
+  }
+]

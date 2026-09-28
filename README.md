@@ -85,7 +85,11 @@ Positioning and prior art: `docs/positioning.md`.
 
 ## Status
 
-0.1.0 · 94 tests · Python ≥ 3.10 (CI 3.12) · standard library only.
+0.1.0 · 136 tests · Python ≥ 3.10 (CI 3.12) · standard library only.
+
+## How this is made
+
+The code and documentation are written with Loomground agents. The maintainer reads and corrects all of it.
 
 ## License
 

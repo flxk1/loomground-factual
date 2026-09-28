@@ -107,7 +107,7 @@ Member States lay down the rules on penalties applicable to infringements   + su
 the court orders otherwise              + subject "controller"
                                          None  (a determiner-led common-noun subject of its own; abstains rather than guess where it ends and its verb begins, or borrow "controller")
 Notify Member States without delay      + subject "controller"
-                                         controller · notify · Member States without delay · relational · asserted: False, entry_kind: action_type  (sentence-initial capitalised imperative verb, NOT a named subject; "controller" is kept)
+                                         controller · notify · Member States without delay · relational · negated · asserted: False, entry_kind: action_type  (sentence-initial capitalised imperative verb, NOT a named subject; "controller" is kept; "without" in the object fires the plane's own negation cue)
 Inform Data Subjects of the breach      + subject "controller"
                                          controller · inform · Data Subjects of the breach · relational · asserted: False, entry_kind: action_type  (same: "Inform" is the verb, not part of a three-word name)
 The Court orders otherwise              + subject "controller"
